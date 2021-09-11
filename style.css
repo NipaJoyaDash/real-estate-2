@@ -1,0 +1,387 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+  .width{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        /*margin-top: 20px;*/
+    }
+    
+ul{
+    text-align: center;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.background{
+    background-color: #88c354;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.topbar-left{
+    width: 50%;
+}
+
+.topbar-right{
+    width: 50%;
+}
+
+.topbar-right ul{
+    float: right;
+    padding-right: 10px;
+    border-right: 1px solid #dcd3d3;
+    width: 50%;
+    list-style: none;
+}
+
+.topbar-right ul li a{
+    color: #666;
+}
+
+.call{
+    padding-right: 5px;
+}
+
+.call-2{
+    padding-right: 4px;
+}
+
+.topbar-right ul li{
+    padding-left: 10px;
+    border-left: 1px solid #dcd3d3;
+}
+
+.topbar-right ul li:nth-child(1){
+    padding-left: 15px;
+    border-left: 1px solid #dcd3d3;
+}
+
+.justify-between{
+    height: 44px;
+    line-height: 44px;
+}
+
+.width10{
+    border-bottom: 1px solid #dcd3d3;
+}
+
+/*---------sub-header-----------*/
+.icon-bar{
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+
+.logo img{
+    margin: 30px 70px;
+}
+
+.drop-down {
+    float: right;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-left: 50px;
+}
+
+ .drop-down .drop-2{
+   background-color: #88C354;
+   color: white;
+   height: 80px;
+   width: 70px;
+}
+
+  .drop-down .drop-down-button{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    font-family: inherit;
+    color: #888888;
+    border-radius: 2px;
+    font-weight: bold;
+    margin: 0;
+    height: 80px;
+    background-color: white;
+  }
+  
+   .drop-down:hover .drop-down-button{
+    background-color: #88C354;
+  }
+  
+  .drop-down-2{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .drop-down-2 a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .drop-down-2 a:hover{
+    background-color: #ddd;
+  }
+  
+  .drop-down:hover .drop-down-2{
+    display: block;
+  }
+/*-------------three------------------*/
+.three{
+    background-image: url(images/output_eyr62W.gif);
+    margin-bottom: 20px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.three h1{
+    text-align: center;
+    color: #88C354;
+    padding-top: 80px;
+    padding-right: auto;
+}
+
+/*------div--------*/
+/*.div{
+    width: 1011px;
+    margin-bottom: 20px;
+    padding-right: 40px;
+}
+
+.div img{
+    height: 224px;
+    width: 317px;
+    margin: auto;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+.div img:hover{
+height: 224px;
+width: 317px;
+background-color: rgba(0,0,0,0.48);
+}*/
+
+/*--------Join our Community------------*/
+.start{
+    height: 400px;
+    width: 100%;
+    background: url(images/4-1920x1200-1920x664.jpg);
+    margin-bottom: 20px;
+}
+
+.start h4{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.start p{
+    padding-top: 30px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+     .start a{
+        background: inherit;
+        border: 2px solid #fff;
+        padding: 20px 40px;
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 8px;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 500px;
+        margin-top: 30px;
+     }
+
+.start a:hover {
+background: white;
+color: #88C354;   
+transition: all .2s ease-out 0s;
+}
+
+/*-------More Details----------*/
+.one{
+    border: 1px solid #F0F0F0;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 20px;
+}
+
+.one h4{
+    padding: 15px;
+    font-weight: bold;
+}
+
+.one p{
+    color:gray ;
+    padding-bottom: 20px;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.one a{
+    text-decoration: none;
+    padding: 10px 17px;
+    background-color:#88C354;
+    color: #fff;
+}
+/*-------trusted-2---------*/
+.trusted-2 img{
+width: 1346px;
+height: 448px;
+} 
+
+/*-------trusted--------*/
+.trusted img{
+    width: 1363px;
+    height: 300px;
+}
+  /*----------------footer-----------------*/
+  footer{
+    background-color: #171C26;
+    height: 420px;
+    width: 100%;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.footer-2 img{
+    margin: 30px 40px;
+}
+
+.footer-2{
+    position: absolute;
+}
+
+.footer-2 p{
+    color: rgba(255, 255, 255, 0.678);
+    margin-left: 50px;
+    padding-top: 0;
+    font-size: 15px;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer-3{
+    margin-left: 350px;
+    position: absolute;
+}
+
+.footer-3 h1{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.footer-3 p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.footer-3 , small{
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.footer-3 small{
+    font-size: 10px;
+}
+
+.footer-3 p:hover{
+    color: #88C354;
+}
+
+.footer-4{
+    margin-left: 700px;
+    position: absolute;  
+}
+
+.footer-4 h1{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 60px;
+    padding-bottom: 10px; 
+}
+
+.footer-4 p{
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 12px;
+    padding-top: 12px;
+}
+
+.footer-4 p:hover{
+    color: #88C354;
+}
+
+.fa-play{
+    padding-left: 10px;
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.footer-5{
+    margin-left: 900px;
+    position: absolute; 
+}
+
+.footer-5 .footer-6{
+    margin-top: 55px;
+    width: 250px;
+    height: 250px;
+    background: #2b303b;
+    padding-left: 20px;
+
+}
+
+.footer-5 .footer-6 p{
+    padding-top: 30px;
+    color: white;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.footer-5 input{
+    padding: 6px;
+    margin-top: 8px;
+
+}
+
+.footer-5 button{
+    padding: 7px 64px;
+    color: white;
+    font-weight: bold;
+    background-color: #88C354;
+    border: none;
+    margin-left: 1px;
+    margin-top: 8px;
+}
